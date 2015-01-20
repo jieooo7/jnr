@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_out_back_color" 
+    android:orientation="vertical" >
+    
+     <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    
+    <!-- title下方块布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_below_back" />
+    
+	<!-- 线条 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_marginBottom="5dp">
+        
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+            >
+    
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+        android:background="@color/base_menu_bg"  >
+
+        <TextView
+            style="@style/sec"
+            android:id="@+id/bind_bank_tv1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_marginTop="13dp"
+            android:text="@string/name"
+            android:textColor="@color/main_out_down_text_color" />
+        
+		<TextView 
+		    android:id="@+id/bind_bank_et1"
+		    android:layout_centerVertical="true"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginTop="13dp"
+		    android:layout_marginRight="35dp"
+		    android:layout_alignParentRight="true"
+		    android:textSize="14sp"
+		    android:text=""
+		    android:textColor="@color/main_out_down_text_color"
+		    />
+        
+    </RelativeLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    
+	<TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/bind_card_tip"
+        android:textColor="@color/main_out_down_text_color"
+        android:gravity="center_horizontal"
+        android:textSize="13sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/main_out_back_color"
+	    />
+	
+	<include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+
+    <RelativeLayout
+        android:id="@+id/bind_bank_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+        android:background="@color/base_menu_bg" >
+
+        <TextView
+            style="@style/sec"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:text="@string/select_bank_card"
+            android:textColor="@color/main_out_down_text_color" />
+
+        <ImageView
+            style="@style/image_arrow"
+            android:id="@+id/bind_bank_img1"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/all_left_offset"
+            android:src="@drawable/button_arrow" />
+
+        <TextView
+            style="@style/sec"
+            android:layout_centerVertical="true"
+            android:id="@+id/bind_select_bank_tv"
+            android:layout_toLeftOf="@id/bind_bank_img1"
+            android:text=""
+            android:textColor="@color/main_out_down_text_color" />
+    </RelativeLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+        android:background="@color/base_menu_bg" >
+
+        <TextView
+            style="@style/sec"
+            android:layout_centerVertical="true"
+            android:id="@+id/bind_bank_tv2"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_marginTop="13dp"
+            android:text="@string/bank_card_no"
+            android:textColor="@color/main_out_down_text_color" />
+        
+		<EditText
+		    android:layout_centerVertical="true"
+		    android:id="@+id/bind_bank_et2" 
+		    android:layout_toRightOf="@id/bind_bank_tv2"
+		    android:inputType="number"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_c"
+		    android:maxLength="25"
+		    />
+    </RelativeLayout>
+    
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    
+    <RelativeLayout
+        android:id="@+id/bind_bank_rl2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+        android:background="@color/base_menu_bg">
+
+        <TextView
+            style="@style/sec"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:text="@string/bank_card_city"
+            android:textColor="@color/main_out_down_text_color" />
+
+        <ImageView
+            style="@style/image_arrow"
+            android:id="@+id/bind_bank_img2"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/all_left_offset"
+            android:src="@drawable/button_arrow" />
+
+        <TextView
+            style="@style/sec"
+            android:id="@+id/bind_bank_city_tv"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/bind_bank_img2"
+            android:text=""
+            android:textColor="@color/main_out_down_text_color" />
+    </RelativeLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+        android:background="@color/base_menu_bg" >
+
+        <TextView
+            style="@style/sec"
+            android:id="@+id/bind_bank_tv3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_marginTop="13dp"
+            android:text="@string/bank_card_branch"
+            android:textColor="@color/main_out_down_text_color" />
+		<EditText
+		    android:layout_centerVertical="true"
+		    android:id="@+id/bind_bank_et3" 
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@id/bind_bank_tv3"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_d"
+		    />
+        
+       	<!-- 线条 -->
+	    <include
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        layout="@layout/line" />
+    </RelativeLayout>
+    
+     <Button 
+        android:id="@+id/bind_bank_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_sure_height"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_checkcode"
+        android:text="@string/bind"
+        android:textColor="@color/white"
+        />
+     
+      </LinearLayout>
+    
+    </ScrollView>
+    
+    
+    
+
+</LinearLayout>

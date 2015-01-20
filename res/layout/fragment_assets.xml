@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="18dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 收益顶部布局 -->
+
+        <RelativeLayout
+            android:id="@+id/assets_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@color/white"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp" >
+
+            <ImageView
+                style="@style/wrap"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/home_yesterday_earn" />
+
+            <!-- 昨日收益 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="70dp"
+                android:orientation="vertical" 
+                >
+                
+                
+            
+
+            <TextView
+                style="@style/wrap"
+                android:text="@string/yesterday_earn"
+                android:textColor="@color/main_out_text_color"
+                android:textSize="14sp" />
+            <TextView
+                style="@style/wrap"
+                android:text="@string/gift_earn"
+                android:textColor="@color/main_out_text_color"
+                android:textSize="12sp" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="28dp"
+                android:orientation="vertical" 
+                >
+
+            <TextView
+                android:id="@+id/yestday_money"
+                style="@style/wrap"
+                android:text=""
+                android:gravity="center_horizontal"
+                android:textColor="@color/main_out_text_color"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/gift_money"
+                style="@style/wrap"
+                android:text=""
+                android:gravity="center_horizontal"
+                android:textColor="@color/main_out_text_color"
+                android:textSize="12sp" />
+            
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ly_assets_tmp"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:layout_marginBottom="84dp" >
+
+            
+            <include
+            android:id="@+id/ly_2"
+            layout="@layout/ly_assets_2" />
+            
+             <LinearLayout
+                 android:id="@+id/ly_assets_1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"
+                 android:orientation="vertical" >
+        
+                 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_all_menu_height"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+			
+            <include
+       			android:layout_width="match_parent"
+       			android:layout_height="wrap_content"
+        		layout="@layout/line" />
+            
+            <!-- 总资产 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/new_all_assets"
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+
+          <TextView
+                android:id="@+id/total_assets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:text=""
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_all_menu_height"
+             >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/new_all_earn"
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/total_revenue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:text=""
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+        
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_all_menu_height"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/get_cash_now"
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/get_cash_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:text=""
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="13sp" />
+        </RelativeLayout>
+        
+        <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp"
+                android:gravity="left"
+                android:text="@string/the_bank_tips"
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="12sp" />
+        
+        
+                 </LinearLayout>
+			
+			    	</RelativeLayout>
+    </LinearLayout>
+    
+    <!-- 转出图标 -->
+    <TextView
+        android:id="@+id/fragment_turn_out"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home_button_turnin"
+        android:gravity="center"
+        android:text="@string/turn_out"
+        android:textColor="@color/main_text_blue_color"
+        android:textSize="18sp" />
+
+    <!-- 下拉抽屉控件 -->
+    <ImageView
+            android:id="@+id/dragImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/home_slideview_head" />
+</RelativeLayout>

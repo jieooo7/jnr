@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_style_bg"
+    android:orientation="vertical" >
+    
+    <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    
+	<!-- title下方块布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_below_back" />
+    
+	<!-- 线条 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    <!-- 手机 号码-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+		android:background="@color/base_menu_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/forgot_passwd_tv1"
+            style="@style/sec"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_centerVertical="true"
+            android:text="@string/tel_no"
+            android:textColor="@color/main_out_down_text_color" />
+
+        <EditText
+		    android:id="@+id/forgot_passwd_tel" 
+		    android:layout_toRightOf="@id/forgot_passwd_tv1"
+		    android:layout_centerVertical="true"
+		    android:inputType="number"
+		    android:maxLength="11"
+		    android:minEms="11"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_b"
+		    />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    <!-- 验证码 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+		android:background="@color/base_menu_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/forgot_passwd_tv2"
+            style="@style/sec"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_centerVertical="true"
+            android:hint="@string/modify_code"
+            android:textColor="@color/main_out_down_text_color" />
+        <Button
+            android:id="@+id/forgot_passwd_send_code" 
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/forgot_passwd_tv2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="14sp"
+            style="@style/wrap"
+            android:background="@drawable/mobile_code"
+            android:textColor="@color/white"
+            android:text="@string/send_modify_code"/>
+		<EditText 
+		    android:id="@+id/forgot_passwd_code"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/forgot_passwd_send_code"
+		    android:textSize="14sp"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_code"
+		    android:inputType="number"
+		    />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+		android:background="@color/base_menu_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/forgot_passwd_tv3"
+            style="@style/sec"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_centerVertical="true"
+            android:text="@string/input_new_passwd"
+            android:textColor="@color/main_out_down_text_color" />
+		<EditText 
+		    android:id="@+id/forgot_passwd_passwd"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/forgot_passwd_tv3"
+		    android:inputType="textPassword"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_h"
+		    />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    <!-- 确认登录密码 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+		android:background="@color/base_menu_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/forgot_passwd_tv4"
+            style="@style/sec"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:layout_centerVertical="true"
+            android:text="@string/submit_new_passwd"
+            android:textColor="@color/main_out_down_text_color" />
+		<EditText
+		    android:id="@+id/forgot_passwd_submit_passwd" 
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/forgot_passwd_tv4"
+		    android:inputType="textPassword"
+		    style="@style/edit_style"
+		    android:hint="@string/hint_h"
+		    />
+    </RelativeLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+
+    <Button 
+        android:id="@+id/forgot_passwd_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_sure_height"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_checkcode"
+        android:text="@string/submit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        />
+    
+
+</LinearLayout>
+

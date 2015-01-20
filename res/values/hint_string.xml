@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_a">请输入登录密码</string>
+    <string name="hint_b">请输入手机号</string>
+    <string name="hint_code">请输入手机验证码</string>
+    <string name="hint_c">请输入银行卡号</string>
+    <string name="hint_d">请输入开户行名称</string>
+    <string name="hint_g">请输入原始登录密码</string>
+    <string name="hint_h">请输入新登录密码</string>
+    <string name="hint_i">请确认登录密码</string>
+    <string name="hint_j">请输入新交易密码</string>
+    <string name="hint_k">请确认交易密码</string>
+    <string name="hint_l">请输入转出金额</string>
+    <string name="hint_m">请输入交易密码</string>
+    <string name="hint_n">"请输入手机号／邮箱"</string>
+    <string name="hint_o">"请输入姓名"</string>
+    <string name="hint_p">"请输入身份证号"</string>
+</resources>

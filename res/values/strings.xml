@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">鲸鱼宝理财</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">hello world!</string>
+    <string name="warning">"提   示"</string>
+    <string name="lockmessage">"请输入登录密码"</string>
+    <string name="to_finish">"去完成"</string>
+    <string name="dialog_call_bt">"拨打"</string>
+    <string name="dialog_call_bt_ok">"确定"</string>
+    <string name="dialog_call_bt_cancel">"取消"</string>
+    <string name="dialog_call">"确定拨打客服电话！"</string>
+    <string name="dialog_real_name">"您还没有完成实名认证、银行卡绑定！"</string>
+    <string name="dialog_real_name_one">"您还没有完成实名认证、银行卡绑定、交易密码设置！"</string>
+    <string name="dialog_bind_card">"您还没有完成银行卡绑定！"</string>
+    <string name="dialog_bind_card_two">"您还没有完成银行卡绑定、交易密码设置！"</string>
+    <string name="dialog_deal_passwd">"您还没有完成交易密码设置！"</string>
+    <string name="product_2014">鲸鱼宝</string>
+    <string name="my_assets">我的资产</string>
+    <string name="ping_an">平安担保</string>
+    <string name="ping_an_detail">平安担保金额本息保障</string>
+    <string name="whale">鲸鱼保障</string>
+    <string name="whale_detail">鲸鱼金融闪电垫付</string>
+    <string name="effective">高效活期</string>
+    <string name="effective_detail">每日结算,随时提现</string>
+    <string name="safe">简单安全</string>
+    <string name="safe_detail">1元投资陆金所</string>
+    <string name="turn_in">转入</string>
+    <string name="turn_out">转出</string>
+    <string name="yesterday_earn">昨日收益 (元)</string>
+    <string name="gift_earn">"(含红包收益)"</string>
+    <string name="all_assets">总资产 (元)</string>
+    <string name="new_all_assets">"资产金额 (元)\n红包金额 (元)"</string>
+    <string name="all_earn">累计收益 (元)</string>
+    <string name="new_all_earn">"累计收益 (元)\n(含红包累计收益)"</string>
+    <string name="get_cash_now">正转出 (元)</string>
+    <string name="average_balance">七日年化收益</string>
+    <string name="title_short1">高收益</string>
+	<string name="title_short2">零风险</string>
+	<string name="title_short3">高效活期</string>
+	<string name="title_long1">今日年化收益</string>
+	<string name="title_long2">平安担保全额本息保障\n鲸鱼金融资金闪电垫付</string>
+	<string name="title_long3">日结息、随进随出</string>
+	<string name="string_zero">0.00</string>
+    <!-- 左侧菜单标题 -->
+    <string name="titleLeftMenu">左侧菜单</string>
+    <string name="index">主页</string>
+    <string name="idcard">银行卡管理</string>
+    <string name="sec">安全中心</string>
+    <string name="more">更 多</string>
+    <string name="gift">红 包</string>
+    <string name="gift_list">"红包列表"</string>
+    <string name="gift_rule">"活动细则"</string>
+    
+    
+    
+    
+    <string name="sec_center">安全中心</string>
+    <string name="the_mobile">绑定手机号</string>
+    <string name="real_name">实名认证</string>
+    <string name="login_passwd">登录密码</string>
+    <string name="new_deal_passwd">新交易密码</string>
+    <string name="submit_deal_passwd">确认交易密码</string>
+    <string name="old_login_passwd">原始登录密码</string>
+    <string name="new_login_passwd">新登录密码</string>
+    <string name="submit_login_passwd">确认登录密码</string>
+    <string name="deal_passwd">交易密码</string>
+    <string name="lock_pattern">打开手势密码</string>
+    <string name="modify_pattern">修改手势密码</string>
+    <string name="change">修改</string>
+    <string name="un_set">未设置</string>
+    <string name="un_name">未认证</string>
+    <string name="new_mobile">填写新手机号码</string>
+    <string name="modify_code">验证码</string>
+    <string name="send_modify_code">"发送验证码"</string>
+    <string name="personal_name">真实姓名</string>
+    <string name="mobile_no">手机号</string>
+    <string name="personal_id">身份证号</string>
+    <string name="submit">确定</string>
+    <string name="the_submit">确认</string>
+    
+    
+    
+    
+    <string name="about_us">关于鲸鱼金融</string>
+    <string name="check_update">检查更新</string>
+    <string name="contact_us">联系客服</string>
+    <string name="contact_us_tel">"400 840 2015"</string>
+    <string name="current_version">当前版本v</string>
+    <string name="logout">退出当前账号</string>
+    
+    
+    
+    
+    
+    <string name="mobile_and_email">手机号码/邮箱</string>
+    <string name="passwd">密码</string>
+    <string name="pwd_alert">请输入6-16位的非纯数字密码 </string>
+    <string name="passwd_limited">密码不能小于6位</string>
+    <string name="register_submit_passwd">确认密码</string>
+    <string name="forgot_passwd">"忘记密码?"</string>
+    <string name="forgot_the_passwd">忘记密码</string>
+    <string name="login_in">登 录</string>
+    <string name="immediately_register">马上注册</string>
+    <string name="tel_no">手机号码</string>
+    <string name="register">注 册</string>
+    <string name="input_new_passwd">输入新密码</string>
+    <string name="submit_new_passwd">确认新密码</string>
+    <string name="i_agree">"我同意《鲸鱼金融用户服务协议》"</string>
+    <string name="about_us_title">关于我们</string>
+    
+    
+    
+    
+    <string name="i_agree_checked">"请勾选同意协议"</string>
+    <string name="mobile_no_checked">"请输入11位手机号码"</string>
+    <string name="mobile_no_checked_one">"手机号码不一致"</string>
+    <string name="mobile_no_reply_checked">"请不要重复绑定该手机号"</string>
+    <string name="mobile_no_reply_checked_one">"该手机号已经被您绑定"</string>
+    <string name="mobile_email_checked">"请输入手机号码或邮箱"</string>
+    <string name="code_checked">"请输入短信验证码"</string>
+    <string name="passwd_checked">"请输入密码"</string>
+    <string name="passwd_login_checked">"请输入登录密码"</string>
+    <string name="submit_passwd_checked">"请输入确认密码"</string>
+    <string name="passwd_equal_checked">"两次密码不一致"</string>
+    <string name="default_error">"网络错误,请重试"</string>
+    <string name="register_error">"修改失败,请稍后重试"</string>
+    <string name="register_success">"注册成功"</string>
+    <string name="login_in_success">"登录成功"</string>
+    <string name="forgot_passwd_success">"密码重置成功"</string>
+    <string name="set_deal_passwd">"设置交易密码"</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="add_bank_card">"添加银行卡"</string>
+    <string name="select_bank_card">"选择银行"</string>
+    <string name="bank_card_no">"银行卡号"</string>
+    <string name="bank_card_city">"开户城市"</string>
+    <string name="bank_card_branch">"开户支行"</string>
+    <string name="bind">"绑定"</string>
+    <string name="bind_bank_card">"绑定银行卡"</string>
+    <string name="remove_bind">"修改绑定"</string>
+    <string name="name">"姓名"</string>
+    <string name="open_bank_checked">"请选择开户银行"</string>
+    <string name="bank_card_checked">"银行卡格式不正确"</string>
+    <string name="bank_city_checked">"请选择开户所在城市"</string>
+    <string name="input_city">"请输入城市中文名或拼音首字母"</string>
+    <string name="input_bank">"请输入银行中文名或拼音首字母"</string>
+    <string name="bank_branch_checked">"开户支行请输入中文"</string>
+    <string name="bind_bank_success">"绑定成功"</string>
+    <string name="name_checked">"请输入姓名"</string>
+    <string name="bind_card_tip">"您只能绑定与实名认证信息一致的银行卡"</string>
+    <string name="name_equal_checked">"姓名与实名认证不一致,请重新输入"</string>
+    <string name="card_detail">"银行卡详情"</string>
+    <string name="card_detail_remove">"银行卡解除绑定成功"</string>
+    <string name="card_change_city">"选择城市"</string>
+    <string name="card_change_bank">"选择银行"</string>
+    
+    <string name="change_bind_mobile">修改绑定手机号</string>
+    <string name="change_bind_mobile_success">绑定手机号修改成功</string>
+    <string name="identify_title">验证身份</string>
+    <string name="person_info_title">实名认证信息</string>
+    <string name="identify_success">身份验证成功</string>
+    <string name="id_no_checked">身份证号格式不正确</string>
+    <string name="change_login_passwd">修改登录密码</string>
+    <string name="please_input">请输入</string>
+    <string name="change_passwd_success">修改登录密码成功</string>
+    <string name="change_deal_passwd_success">修改交易密码成功</string>
+    
+    
+    
+    <string name="recieve_bank_card">收款银行卡</string>
+    <string name="get_cash_much">转出金额</string>
+    <string name="can_use_cash">当前可转出金额</string>
+    <string name="service_tip">手续费</string>
+    <string name="next">下一步</string>
+    <string name="two_dollar">"￥2.00"</string>
+    <string name="look_deal_record">"查看交易记录"</string>
+    <string name="deal_record">"交易记录"</string>
+    <string name="back_to_main">"返回首页"</string>
+   
+    
+    
+    
+    <string name="input_int">"请输入1的整数倍"</string>
+    <string name="purchase_no">"购买金额"</string>
+    <string name="pay">"支付"</string>
+    <string name="had_purcharse">"已购份额"</string>
+    <string name="submit_order">"确认订单"</string>
+    
+    <string name="can_use_enough">"可转出金额不足"</string>
+    <string name="can_use_limite">"转出金额要大于2元"</string>
+    <string name="submit_security_identify">"确认安全验证"</string>
+    <string name="had_purcharse_tips">"鲸鱼金融将为您支付购买手续费"</string>
+    <string name="puchase_tips">"温馨提示"</string>
+    
+    
+    
+    <!-- 加载进度框 -->
+    <string name="loading">请稍候&#8230;</string>
+    <string name="back_to_exit">再按一次退出程序</string>
+    <string name="purchase_success">申购成功</string>
+    <string name="get_cash_success">转出申请完成</string>
+    <string name="purchase_text_two">"申购金额:"</string>
+    <string name="purchase_text_three">"交易编号:"</string>
+    <string name="purchase_text_one">"您已成功申购鲸鱼宝,请及时查看您的账户,会有惊喜哦!\n\n"</string>
+    
+    
+     <string name="format_a">"收款银行卡:"</string>
+     <string name="format_b">"预计最迟到账时间:"</string>
+     <string name="format_c">"24点前\n转出资金"</string>
+     <string name="format_d">仍有收益\n如遇节假日,请往后顺延\n\n实际到账金额:</string>
+     <string name="format_e">"元\n手续费:"</string>
+     <string name="format_g">"元"</string>
+     <string name="format_f">" s后重发"</string>
+     <string name="trend">"收益走势"</string>
+     
+     
+     
+     <string name="gift_rule_one">"红包细则"</string>
+     <string name="gift_rule_symbol">"红包细则:"</string>
+     <string name="gift_rule_declare">"(本规则解释权归鲸鱼宝最终所有)"</string>
+     <string name="gift_invite">"邀请好友可再得红包"</string>
+     <string name="invite_friends">"邀请好友"</string>
+     <string name="invite_no_friends">"您还没有邀请过好友,暂时没有红包"</string>
+     <string name="banner1">"<b>有效日期:2014-12-12~2015-02-12</b>"</string>
+
+     
+     
+     
+     <string name="tips_rule_one">"手续费收取规则 ▶"</string>
+     <string name="tips_rule_two">"手续费收取规则 ▼"</string>
+     <string name="tips_rule_three">"① 单次转出100元以下，第三方支付平台正常收取2元/笔手续费；
+② 单次转出100元及以上，当月前三次转出对用户免收手续费，（此部分转出手续费由鲸鱼金融承担）。超过三次转出，第三方支付平台正常收取2元/笔手续费。
+③ 转出手续费费用将直接从用户转出金额扣除。如：转出资金1000元，实际到账998元。"</string>
+     
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="get_cash_tips">"鲸鱼金融真诚的客服已实时开始处理您的转出申请,感谢您的信赖!"</string>
+     <string name="update_tips">"当前已经是最新版了"</string>
+     <string name="the_bank_tips">"提示：如您正申请转出1000元，当转出金额由1000元变为0.00元，表示资金已进入第三方支付转账流程，具体到账时间请您关注银行短信通知。鲸鱼金融严格执行T（申请转出日）+1日到账。"</string>
+    
+    
+    <string name="the_introduce"  formatted="false">"
+1、关于鲸鱼宝
+鲸鱼宝是“最高收益的活期理财”，用户资金转入鲸鱼宝即购买了平安银行旗下陆金所债权，由平安融资担保（天津）全额本息担保。存入鲸鱼宝的资金不仅能够得到年化8%以上的超额收益，还能随时申请快速转出到银行卡，方便灵活。用户银行存款及闲置资金存入鲸鱼宝，既能享受两倍于余额宝的高收益，又能享受活期存款的高流动性 。
+
+
+2、鲸鱼历史
+鲸鱼金融——"中国活期存款革命的黄埔军校"沿革历史：
+2013年6月，鲸鱼梦想团队由2名来自中国最大的私募基金公司的两名80后资深合伙人创始。
+2014年1月，“鲸鱼”名字的正式定名，寓意每一位为承载对鲸鱼信任，而默默努力的鲸鱼金融精英，都像这个地球上最大的精灵一样，在蓝色海洋里奋斗不息，拥有最伟大的互联网梦想，最广阔的金融视野，及最广博的金融胸怀。
+2014年2月，鲸鱼梦想团队正式放弃市场主流的以“余X宝”为代表的货币基金宝宝类低息理财模式，人类互联网金融史上，最新首家独立研发出互联网基因，银行担保，银行信用背书的债券基金。即日结息，最高收益宝宝商业模式。
+2014年9月，在50位鲸鱼金融精英共同努力下，历时15个月，完成鲸鱼宝交易平台研发工作。鲸鱼金融依托中国最大的互联网交易平台平安银行旗下陆金所及中国最大私募基金星光耀基金的金融资源，打造出鲸鱼金融生态系统的雏形。
+2014年11月，历时3个月的金融系统安全性五星测试后，“鲸鱼宝”APP以极致、简单、易用的理念，正式亮相APP STORE及Anroid市场。
+
+"鲸鱼宝"的高调推出，必将引发互联网金融，活期理财战争时代的暴风骤雨革命。
+鲸鱼金融目标：让所有人每日享受登陆手机APP存入与转出的便捷，矢志不渝让所有人每日享受超过8.0%日结息，最高收益的活期理财成为一种习惯。
+
+鲸鱼使命——互联网金融生态系统的颠覆，最革命的创造！
+鲸鱼宝——定义互联网时代的宝宝类活期理财，最高标准！
+鲸鱼蓝图——让互联网金融时代所有活期理财，最高收益！
+
+"</string>
+        
+    <!-- 图形解锁-->
+	<string name="please_access_pattern">请输入手势密码</string>
+	<string name="please_set_pattern">设置手势密码</string>
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+
+</resources>

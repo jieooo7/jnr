@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="15dp"
+    >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView 
+        android:id="@+id/gift_detail_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:src="@drawable/gift_banner1"
+        />
+    
+    <TextView 
+        android:id="@+id/gift_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/banner_blue"
+        android:layout_marginTop="63dp"
+        android:textSize="13sp"
+        android:text=""
+        />
+    
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="40dp"
+        android:orientation="vertical" 
+        >
+        <TextView 
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/main_out_down_text_color"
+            android:textSize="16sp"
+            android:text="@string/gift_rule_symbol"
+            />
+        
+        <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+	        android:scrollbars="@null"
+	        >
+	        <TextView 
+	            android:id="@+id/gift_detail_tv"
+	            android:layout_width="match_parent"
+	       		android:layout_height="wrap_content"
+	            android:gravity="left"
+	            android:layout_marginTop="10dp"
+	            android:textColor="@color/bind_mob_line_color"
+	            android:textSize="16sp"
+	            android:text=""
+	            />
+        </ScrollView>
+        
+
+        <TextView 
+            android:id="@+id/gift_content"
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:textColor="@color/bind_mob_line_color"
+            android:textSize="16sp"
+            android:text="@string/gift_rule_declare"
+            />
+        
+     </LinearLayout>   
+    
+    
+
+</LinearLayout>
+    <Button
+        android:id="@+id/gift_detail_bt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_sure_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_checkcode"
+        android:text="@string/gift_invite"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
+

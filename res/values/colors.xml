@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 主体风格 背景色等等  -->
+    <color name="base_style_bg">#f7f7f7</color>
+    
+    <!-- 各个子界面菜单栏颜色-白 -->
+    <color name="base_menu_bg">#ffffff</color>
+    
+    <!-- 各个子界面下方灰色间隔 -->
+    <color name="gray_offset">#f7f7f7</color>
+    
+    <!-- 各个子界面输入提示的字体颜色 -->
+    <color name="gray_hint">#cacbcc</color>
+    <!--  深色字体颜色 -->
+    <color name="dark_text">#515151</color>
+    
+    <!-- 透明色 -->
+    <color name="translate">@android:color/transparent</color>
+    <!-- 白色 -->
+    <color name="white">@android:color/white</color>
+    <!-- 分割线颜色 -->
+    <color name="separate_line">#231915</color>
+    <!-- 主页面顶部按钮 背景色 -->
+    <color name="main_back_color">#8ad7f6</color>
+    <!-- 主页面灰色字体颜色 -->
+    <color name="main_text_color">#888888</color>
+    <!-- 主页面蓝色字体颜色 -->
+    <color name="main_text_blue_color">#428eb3</color>
+    <!-- 主页面转出上方背景颜色 -->
+    <color name="main_out_back_color">#f7f7f7</color>
+    <!-- 主页面转出上方文字颜色 -->
+    <color name="main_out_text_color">#0097db</color>
+    <!-- 主页面转出上方线条颜色 -->
+    <color name="main_out_line_color">#b6b6b6</color>
+    <!-- 主页面转出下方线条颜色 -->
+    <color name="main_out_down_line_color">#e5e5e5</color>
+    <!-- 主页面转出下方文字颜色 -->
+    <color name="main_out_down_text_color">#898989</color>
+    
+    
+    
+    <!-- 安全中心title 下方线条颜色 -->
+    <color name="secu_below_line_color">#656155</color>
+    <!-- 绑定手机 右边线条颜色 -->
+    <color name="bind_mob_line_color">#a6a6a6</color>
+    <!-- 绑定手机 发送验证码背景颜色 -->
+    <color name="bind_mob_button_color">#7ec5ea</color>
+    
+    
+    <!-- 左侧菜单样式 -->
+    <color name="gray">#f2f2f2</color>
+    <color name="left_menu_txt_normal">#999999</color>
+    <color name="left_menu_txt_select">#62bce3</color>
+    
+    <color name="black">#000000</color>
+    <color name="tools_box_bg">#ff333332</color>
+    
+    <!-- 图形解锁用到颜色 -->
+    <color name="gesture_background">#f8f8f8</color>
+    <color name="color_hei_8">#428eb3</color>
+	 <color name="color_text_gr">#898989</color>
+	 <color name="banner_blue">#0cb5e2</color>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    
+
+    <!-- 城市银行列表用到颜色 -->
+	
+    <color name="color_hint">#e6e6e6</color>
+    <color name="color_listt">#ffffff</color>
+    <color name="color_serch">#f7f7f7</color>
+    <color name="color_listt_blue">#0096D9</color>
+    <color name="color_listt_blak">#1a1a1a</color>
+    <color name="color_listt_grey">#898989</color>
+
+</resources>

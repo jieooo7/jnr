@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_out_back_color"
+    android:orientation="vertical" >
+    <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+<!-- title下方块布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    
+    <ImageView 
+        style="@style/wrap"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/more_logo"/>
+    <TextView 
+        style="@style/wrap"
+        android:textColor="@color/main_out_down_text_color" 
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:text="@string/jinr_title"
+        />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView 
+        style="@style/wrap"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:gravity="fill_horizontal"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:textColor="@color/main_out_down_text_color" 
+        android:textSize="13sp"
+        android:text="@string/jinr_agreement"/>
+    
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    
+	<!-- title下方块布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_below_back" />
+    
+	<!-- 线条 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+    <ScrollView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+        	android:paddingBottom="7dp"
+        	android:scrollbars="@null"
+	        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" 
+        >
+        <TextView 
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/main_out_down_text_color"
+            android:textSize="16sp"
+            android:text="@string/gift_rule_symbol"
+            />
+        <TextView 
+            android:id="@+id/gift_rule_tv"
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/bind_mob_line_color"
+            android:textSize="16sp"
+            android:text=""
+            />
+        <TextView 
+            android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:textColor="@color/bind_mob_line_color"
+            android:textSize="16sp"
+            android:text="@string/gift_rule_declare"
+            />
+        
+        
+    </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

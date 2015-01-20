@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- 主页面中间说明部分 -->
+    <style name="textStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/main_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+       
+        
+    </style>
+    
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+       
+        
+    </style>
+    
+    <style name="image_arrow">
+        <item name="android:layout_width">23dp</item>
+        <item name="android:layout_height">46dp</item>
+       
+        
+    </style>
+    
+    <!-- 安全中心 style -->
+    <style name="sec" parent="wrap">
+        
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">14sp</item>
+       
+        
+    </style>
+    
+    <!-- 主页面中间部分间隔 -->
+    <style name="separate_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">58dp</item>
+       
+        
+    </style>
+    
+    
+    <style name="edit_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingRight">4dp</item>
+        
+        <item name="android:background">@null</item>
+        <item name="android:textColorHint">@color/gray_hint</item>
+        <item name="android:textColor">@color/main_out_down_text_color</item>
+    </style>
+    
+        <!-- 图形解锁的样式 -->
+
+
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/skin_color_button</item>
+        <item name="android:background">@drawable/common_btn_green</item>
+    </style> 
+
+    <style name="ButtonRed" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/skin_color_button</item>
+        <item name="android:background">@drawable/common_btn_red</item>
+    </style>
+    
+    
+    <!-- 自定义Dialog的样式 -->
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

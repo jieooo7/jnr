@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/tool_box_fragment_bg_selector" >
+ 
+    
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginTop="0dip"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dip" >
+        </RelativeLayout>
+        
+          <include
+            android:id="@+id/jinrBtnIndex"
+            layout="@layout/tool_item_index" />
+          
+           <include
+            android:id="@+id/jinrBtnIdcrad"
+            layout="@layout/tool_item_idcard" />
+           
+            <include
+            android:id="@+id/jinrBtnSec"
+            layout="@layout/tool_item_sec" />
+            
+            
+            <include
+            android:id="@+id/jinrBtnGift"
+            layout="@layout/tools_item_gift" />
+            
+              <include
+            android:id="@+id/jinrBtnMore"
+            layout="@layout/tool_item_more" />
+        
+    </LinearLayout>
+    
+
+</ScrollView>

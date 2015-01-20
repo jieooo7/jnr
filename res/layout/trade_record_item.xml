@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+            <TextView 
+                android:id="@+id/trade_item_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_out_down_text_color"
+                android:textSize="14sp"
+                android:text=""/>
+            <TextView 
+                android:id="@+id/trade_item_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:textColor="@color/main_out_down_text_color"
+                android:text=""/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/trade_item_tv3"
+            style="@style/sec"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="0dp"
+            android:text=""
+            android:textColor="@color/main_out_down_text_color" />
+        <TextView
+            android:id="@+id/trade_item_tv4"
+            style="@style/sec"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@color/main_out_down_text_color" />
+    </RelativeLayout>
+
+</LinearLayout>

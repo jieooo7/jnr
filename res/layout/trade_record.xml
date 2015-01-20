@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    <!-- title下方块布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        layout="@layout/title_below_back" />
+<!-- 线条 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/main_out_down_line_color"/> 
+    <TextView
+        android:id="@+id/trade_record_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="15dp"
+        android:textColor="@color/main_out_down_text_color"
+        android:textSize="16sp"
+        android:text="当前没有交易记录" />    
+	<ListView
+	    android:id="@+id/trade_record_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+	    
+
+</LinearLayout>
+

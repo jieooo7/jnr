@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- title布局 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    <!-- title下方块布局 -->
+
+<!--     <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        layout="@layout/title_below_back" /> -->
+    <!-- 线条 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line" />
+
+    <TextView
+        android:id="@+id/get_cash_finish_tv1"
+        style="@style/wrap"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="30dp"
+        android:text="@string/get_cash_tips"
+        android:textColor="@color/main_out_down_text_color"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/get_cash_finish_record"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_login_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_checkcode"
+                android:text="@string/look_deal_record"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/get_cash_finish_back"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_login_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button_checkcode"
+                android:text="@string/back_to_main"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

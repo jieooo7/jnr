@@ -1,0 +1,19 @@
+#git igno
+#.gitignore 
+*~
+.svn
+.settings
+local.properties
+proguard/**
+target/**
+#删除生成文件
+bin/**
+obj/**
+doc/**
+gen/**
+a.txt
+bin
+apk
+发布渠道.txt
+版本日志.txt
+.DS_Store

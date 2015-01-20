@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_style_bg"
+    android:orientation="vertical" >
+
+    <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    <!-- title下方块布局 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title_below_back" />
+    <!-- 线条 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_menu_height"
+		android:background="@drawable/back_select"
+         >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/line" />
+        <TextView
+            android:id="@+id/puchase_tv1"
+            style="@style/sec"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/all_left_offset"
+            android:text="@string/purchase_no"
+            android:textColor="@color/main_out_down_text_color" />
+
+        <EditText
+            android:id="@+id/puchase_et1"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/puchase_tv1"
+            android:hint="@string/input_int"
+            android:inputType="number"
+            style="@style/edit_style"
+             />
+	    <include
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        layout="@layout/line" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/puchase_tips"
+        style="@style/wrap"
+        android:layout_marginLeft="@dimen/all_left_offset"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/puchase_tips"
+        android:lineSpacingMultiplier="1.0"
+        android:textColor="@color/dark_text"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/puchase_tips_two"
+        style="@style/wrap"
+        android:layout_marginLeft="@dimen/all_left_offset"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="2dp"
+        android:text=""
+        android:textColor="@color/main_out_down_text_color"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/purchase_submit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_sure_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_checkcode"
+        android:text="@string/pay"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

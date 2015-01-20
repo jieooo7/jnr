@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <!-- title布局 -->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+    
+    <!-- title下方线条 -->
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/main_out_down_line_color"/> 
+    
+    <ImageView 
+        style="@style/wrap"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/more_logo"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        >
+    <TextView 
+        style="@style/wrap"
+        android:layout_width="match_parent"
+        android:gravity="fill_horizontal"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/main_out_down_text_color" 
+        android:textSize="13sp"
+        android:text="@string/the_introduce"/>
+    
+     </ScrollView>
+
+</LinearLayout>
